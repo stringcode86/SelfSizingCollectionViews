@@ -9,64 +9,29 @@
 /* Begin PBXBuildFile section */
 		9FF8416325B9E72D00EBD22A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF8416225B9E72D00EBD22A /* AppDelegate.swift */; };
 		9FF8416525B9E72D00EBD22A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF8416425B9E72D00EBD22A /* SceneDelegate.swift */; };
-		9FF8416725B9E72D00EBD22A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF8416625B9E72D00EBD22A /* ViewController.swift */; };
+		9FF8416725B9E72D00EBD22A /* SelfSizingCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF8416625B9E72D00EBD22A /* SelfSizingCollectionViewController.swift */; };
 		9FF8416A25B9E72D00EBD22A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF8416825B9E72D00EBD22A /* Main.storyboard */; };
 		9FF8416C25B9E72F00EBD22A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FF8416B25B9E72F00EBD22A /* Assets.xcassets */; };
 		9FF8416F25B9E72F00EBD22A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF8416D25B9E72F00EBD22A /* LaunchScreen.storyboard */; };
-		9FF8417A25B9E72F00EBD22A /* SelfSizingCollectionViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF8417925B9E72F00EBD22A /* SelfSizingCollectionViewsTests.swift */; };
-		9FF8418525B9E72F00EBD22A /* SelfSizingCollectionViewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF8418425B9E72F00EBD22A /* SelfSizingCollectionViewsUITests.swift */; };
+		9FF8419925B9E84E00EBD22A /* SelfSizingFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF8419825B9E84E00EBD22A /* SelfSizingFlowLayout.swift */; };
+		9FF8419E25B9E86300EBD22A /* SelfSizingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF8419D25B9E86300EBD22A /* SelfSizingCell.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		9FF8417625B9E72F00EBD22A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9FF8415725B9E72D00EBD22A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9FF8415E25B9E72D00EBD22A;
-			remoteInfo = SelfSizingCollectionViews;
-		};
-		9FF8418125B9E72F00EBD22A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9FF8415725B9E72D00EBD22A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9FF8415E25B9E72D00EBD22A;
-			remoteInfo = SelfSizingCollectionViews;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		9FF8415F25B9E72D00EBD22A /* SelfSizingCollectionViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfSizingCollectionViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FF8416225B9E72D00EBD22A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FF8416425B9E72D00EBD22A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9FF8416625B9E72D00EBD22A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9FF8416625B9E72D00EBD22A /* SelfSizingCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfSizingCollectionViewController.swift; sourceTree = "<group>"; };
 		9FF8416925B9E72D00EBD22A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9FF8416B25B9E72F00EBD22A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FF8416E25B9E72F00EBD22A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FF8417025B9E72F00EBD22A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9FF8417525B9E72F00EBD22A /* SelfSizingCollectionViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfSizingCollectionViewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FF8417925B9E72F00EBD22A /* SelfSizingCollectionViewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfSizingCollectionViewsTests.swift; sourceTree = "<group>"; };
-		9FF8417B25B9E72F00EBD22A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9FF8418025B9E72F00EBD22A /* SelfSizingCollectionViewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfSizingCollectionViewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FF8418425B9E72F00EBD22A /* SelfSizingCollectionViewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfSizingCollectionViewsUITests.swift; sourceTree = "<group>"; };
-		9FF8418625B9E72F00EBD22A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FF8419825B9E84E00EBD22A /* SelfSizingFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfSizingFlowLayout.swift; sourceTree = "<group>"; };
+		9FF8419D25B9E86300EBD22A /* SelfSizingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfSizingCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9FF8415C25B9E72D00EBD22A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FF8417225B9E72F00EBD22A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FF8417D25B9E72F00EBD22A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,8 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				9FF8416125B9E72D00EBD22A /* SelfSizingCollectionViews */,
-				9FF8417825B9E72F00EBD22A /* SelfSizingCollectionViewsTests */,
-				9FF8418325B9E72F00EBD22A /* SelfSizingCollectionViewsUITests */,
 				9FF8416025B9E72D00EBD22A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				9FF8415F25B9E72D00EBD22A /* SelfSizingCollectionViews.app */,
-				9FF8417525B9E72F00EBD22A /* SelfSizingCollectionViewsTests.xctest */,
-				9FF8418025B9E72F00EBD22A /* SelfSizingCollectionViewsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,31 +62,15 @@
 			children = (
 				9FF8416225B9E72D00EBD22A /* AppDelegate.swift */,
 				9FF8416425B9E72D00EBD22A /* SceneDelegate.swift */,
-				9FF8416625B9E72D00EBD22A /* ViewController.swift */,
+				9FF8419D25B9E86300EBD22A /* SelfSizingCell.swift */,
+				9FF8419825B9E84E00EBD22A /* SelfSizingFlowLayout.swift */,
+				9FF8416625B9E72D00EBD22A /* SelfSizingCollectionViewController.swift */,
 				9FF8416825B9E72D00EBD22A /* Main.storyboard */,
 				9FF8416B25B9E72F00EBD22A /* Assets.xcassets */,
 				9FF8416D25B9E72F00EBD22A /* LaunchScreen.storyboard */,
 				9FF8417025B9E72F00EBD22A /* Info.plist */,
 			);
 			path = SelfSizingCollectionViews;
-			sourceTree = "<group>";
-		};
-		9FF8417825B9E72F00EBD22A /* SelfSizingCollectionViewsTests */ = {
-			isa = PBXGroup;
-			children = (
-				9FF8417925B9E72F00EBD22A /* SelfSizingCollectionViewsTests.swift */,
-				9FF8417B25B9E72F00EBD22A /* Info.plist */,
-			);
-			path = SelfSizingCollectionViewsTests;
-			sourceTree = "<group>";
-		};
-		9FF8418325B9E72F00EBD22A /* SelfSizingCollectionViewsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				9FF8418425B9E72F00EBD22A /* SelfSizingCollectionViewsUITests.swift */,
-				9FF8418625B9E72F00EBD22A /* Info.plist */,
-			);
-			path = SelfSizingCollectionViewsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,42 +93,6 @@
 			productReference = 9FF8415F25B9E72D00EBD22A /* SelfSizingCollectionViews.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9FF8417425B9E72F00EBD22A /* SelfSizingCollectionViewsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9FF8418C25B9E72F00EBD22A /* Build configuration list for PBXNativeTarget "SelfSizingCollectionViewsTests" */;
-			buildPhases = (
-				9FF8417125B9E72F00EBD22A /* Sources */,
-				9FF8417225B9E72F00EBD22A /* Frameworks */,
-				9FF8417325B9E72F00EBD22A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9FF8417725B9E72F00EBD22A /* PBXTargetDependency */,
-			);
-			name = SelfSizingCollectionViewsTests;
-			productName = SelfSizingCollectionViewsTests;
-			productReference = 9FF8417525B9E72F00EBD22A /* SelfSizingCollectionViewsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		9FF8417F25B9E72F00EBD22A /* SelfSizingCollectionViewsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9FF8418F25B9E72F00EBD22A /* Build configuration list for PBXNativeTarget "SelfSizingCollectionViewsUITests" */;
-			buildPhases = (
-				9FF8417C25B9E72F00EBD22A /* Sources */,
-				9FF8417D25B9E72F00EBD22A /* Frameworks */,
-				9FF8417E25B9E72F00EBD22A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9FF8418225B9E72F00EBD22A /* PBXTargetDependency */,
-			);
-			name = SelfSizingCollectionViewsUITests;
-			productName = SelfSizingCollectionViewsUITests;
-			productReference = 9FF8418025B9E72F00EBD22A /* SelfSizingCollectionViewsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +104,6 @@
 				TargetAttributes = {
 					9FF8415E25B9E72D00EBD22A = {
 						CreatedOnToolsVersion = 12.3;
-					};
-					9FF8417425B9E72F00EBD22A = {
-						CreatedOnToolsVersion = 12.3;
-						TestTargetID = 9FF8415E25B9E72D00EBD22A;
-					};
-					9FF8417F25B9E72F00EBD22A = {
-						CreatedOnToolsVersion = 12.3;
-						TestTargetID = 9FF8415E25B9E72D00EBD22A;
 					};
 				};
 			};
@@ -220,8 +121,6 @@
 			projectRoot = "";
 			targets = (
 				9FF8415E25B9E72D00EBD22A /* SelfSizingCollectionViews */,
-				9FF8417425B9E72F00EBD22A /* SelfSizingCollectionViewsTests */,
-				9FF8417F25B9E72F00EBD22A /* SelfSizingCollectionViewsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -237,20 +136,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9FF8417325B9E72F00EBD22A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FF8417E25B9E72F00EBD22A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -258,42 +143,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FF8416725B9E72D00EBD22A /* ViewController.swift in Sources */,
+				9FF8419E25B9E86300EBD22A /* SelfSizingCell.swift in Sources */,
+				9FF8416725B9E72D00EBD22A /* SelfSizingCollectionViewController.swift in Sources */,
+				9FF8419925B9E84E00EBD22A /* SelfSizingFlowLayout.swift in Sources */,
 				9FF8416325B9E72D00EBD22A /* AppDelegate.swift in Sources */,
 				9FF8416525B9E72D00EBD22A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9FF8417125B9E72F00EBD22A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9FF8417A25B9E72F00EBD22A /* SelfSizingCollectionViewsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FF8417C25B9E72F00EBD22A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9FF8418525B9E72F00EBD22A /* SelfSizingCollectionViewsUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9FF8417725B9E72F00EBD22A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9FF8415E25B9E72D00EBD22A /* SelfSizingCollectionViews */;
-			targetProxy = 9FF8417625B9E72F00EBD22A /* PBXContainerItemProxy */;
-		};
-		9FF8418225B9E72F00EBD22A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9FF8415E25B9E72D00EBD22A /* SelfSizingCollectionViews */;
-			targetProxy = 9FF8418125B9E72F00EBD22A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9FF8416825B9E72D00EBD22A /* Main.storyboard */ = {
@@ -442,7 +300,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.p4rtiz4n.SelfSizingCollectionViews;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.stringCode.SelfSizingCollectionViews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -460,90 +318,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.p4rtiz4n.SelfSizingCollectionViews;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.stringCode.SelfSizingCollectionViews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		9FF8418D25B9E72F00EBD22A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SelfSizingCollectionViewsTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.p4rtiz4n.SelfSizingCollectionViewsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelfSizingCollectionViews.app/SelfSizingCollectionViews";
-			};
-			name = Debug;
-		};
-		9FF8418E25B9E72F00EBD22A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SelfSizingCollectionViewsTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.p4rtiz4n.SelfSizingCollectionViewsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelfSizingCollectionViews.app/SelfSizingCollectionViews";
-			};
-			name = Release;
-		};
-		9FF8419025B9E72F00EBD22A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SelfSizingCollectionViewsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.p4rtiz4n.SelfSizingCollectionViewsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SelfSizingCollectionViews;
-			};
-			name = Debug;
-		};
-		9FF8419125B9E72F00EBD22A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SelfSizingCollectionViewsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.p4rtiz4n.SelfSizingCollectionViewsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SelfSizingCollectionViews;
 			};
 			name = Release;
 		};
@@ -564,24 +342,6 @@
 			buildConfigurations = (
 				9FF8418A25B9E72F00EBD22A /* Debug */,
 				9FF8418B25B9E72F00EBD22A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9FF8418C25B9E72F00EBD22A /* Build configuration list for PBXNativeTarget "SelfSizingCollectionViewsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9FF8418D25B9E72F00EBD22A /* Debug */,
-				9FF8418E25B9E72F00EBD22A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9FF8418F25B9E72F00EBD22A /* Build configuration list for PBXNativeTarget "SelfSizingCollectionViewsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9FF8419025B9E72F00EBD22A /* Debug */,
-				9FF8419125B9E72F00EBD22A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

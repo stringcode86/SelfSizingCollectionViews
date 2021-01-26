@@ -1,8 +1,5 @@
 //
-//  AppDelegate.swift
-//  SelfSizingCollectionViews
-//
-//  Created by stringcode on 21/01/2021.
+// Created by stringCode on 21/01/2021.
 //
 
 import UIKit
